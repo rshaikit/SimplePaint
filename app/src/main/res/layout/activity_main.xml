@@ -14,13 +14,14 @@
         android:layout_height="wrap_content">
 
     </RelativeLayout>
+
     <Button
+        android:id="@+id/button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Click Here to clear drawing "
-        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
         android:layout_weight="10"
-        android:layout_alignParentBottom="true" />
+        android:text="Erase " />
 
     <Button
         android:id="@+id/button2"
